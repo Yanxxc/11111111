@@ -1,0 +1,6 @@
+def sum_up_to_n(n):
+    return sum(range(1, n + 1))
+total_sum_1_to_100 = sum_up_to_n(100)
+print(f"從 1 加至 100 的總和是: {total_sum_1_to_100}")
+total_sum_50_to_100 = sum_up_to_n(100) - sum_up_to_n(49)
+print(f"從 50 加至 100 的總和是: {total_sum_50_to_100}")
